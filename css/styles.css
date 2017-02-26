@@ -22,18 +22,43 @@ body{
     padding: 7px 15px;
 }
 
-.menu_item{
-	background-color: #999;
+.main_section h2{
 	font-weight: bold;
 }
 .main_section h2{
 	font-weight: bold;
 }
-.menu_item h3{
+
+.menu_item{
+	background-color: #999;
 	font-weight: bold;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 15px;
+	border-radius: 5%;
+	overflow: hidden;
 }
+	.menu_item h3{
+		font-weight: bold;
+		margin: 10px 0px 10px 0;
+	}
+
+	.menu_item a{
+		display: inline-block;
+	}
 
 .navbar-default .navbar-nav>li>a {
     color: #000;
 	font-weight: bold;
+}
+
+.navbar-nav{
+	display: none;
+	text-align: center;
+}
+
+@media (max-width: 767px){
+	.navbar-nav{
+		display: inherit;
+	}
 }
