@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'ComicNeue-Regular';
+	src: url('../fonts/ComicNeue-Regular/ComicNeue-Regular.eot');
+	src: url('../fonts/ComicNeue-Regular/ComicNeue-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/ComicNeue-Regular/ComicNeue-Regular.woff') format('woff'),
+		 url('../fonts/ComicNeue-Regular/ComicNeue-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'ComicNeue-Bold';
+	src: url('../fonts/ComicNeue-Bold/ComicNeue-Bold.eot');
+	src: url('../fonts/ComicNeue-Bold/ComicNeue-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/ComicNeue-Bold/ComicNeue-Bold.woff') format('woff'),
+		 url('../fonts/ComicNeue-Bold/ComicNeue-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
